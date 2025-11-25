@@ -1,0 +1,91 @@
+.con {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+  }
+
+  h2 {
+    color: #333;
+  }
+
+  .give {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  .give .half {
+    width: 48%;
+  }
+.c{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+  .benefits ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .benefits ul li::before {
+    content: "✔️";
+    margin-right: 8px;
+    color: green;
+  }
+
+  .plans {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .ca {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 31%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .ca h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .ca p {
+    font-size: 14px;
+    margin: 15px 0;
+  }
+
+  .price {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: -30px;
+  }
+
+  .ca button {
+    background:rgb(18,44,151);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .ca button:hover {
+    background: #0056b3;
+  }
+
+  @media (max-width: 768px) {
+    .section .half,
+    .card {
+      width: 100%;
+    }
+  }
+  .p{
+    font-size: 13px;
+  }
